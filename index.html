@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Your Game Name</title>
+    <style>
+        body { margin: 0; display: flex; justify-content: center; align-items: center; background: #000; }
+        canvas { border: 2px solid #fff; }
+    </style>
+</head>
+<body>
+    <script src="https://pygame-web.github.io/hello/pygame.js"></script>
+    <script>
+        // Load your game (main.py)
+        Pygame.init({
+            script: "main.py",
+            width: 800,
+            height: 600
+        });
+    </script>
+</body>
+</html>
